@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('/Imagem/pix-png.png');
+    min-height: 100hv;
+    background-position: center left;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+form{
+    margin: 0 auto;
+    width: 400px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    flex-direction: column;
+    cursor: pointer;
+    padding:  1em;
+    box-shadow:  0px 10px 25px #c0afb9; /* Box shadown sombra top*/
+    border-radius: 1em;
+    background-color: #f9f9f9f9;
+}
+.image{
+    position: absolute;
+    left: 48%;
+    top: 30%;
+}
+.image img {
+    width: 75px;
+    height: 75px;
+    border: 1px solid orange;
+}
+.inputs {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    padding: -10px;
+}
+.inputs div{
+    display: flex;
+    flex-direction: column;
+}
+.inputs div label{
+    margin-left: 12px;
+    color: #333;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+ form div input{
+    width: 300px;
+    border: none;
+    background: transparent;
+    border-bottom: solid 1px orange;
+    margin: 10px;
+    margin-left: 15px;
+    font-weight:200;
+    font-size: 20px;
+}
+form div input  ::after{
+    border-color: #3692e7;
+}
+.btn{
+    padding-left: 90px;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+}
+.btn button{
+    margin-top: 90px;
+    width: 295px;
+    height: 50px;
+    border: solid 1px orange;
+    border-radius: 50px;
+}
+.btn button:hover{
+    color: #f9f9f9;
+    background-color: orange;
+    cursor: pointer;
+}
+form p {
+    position: absolute;
+    top: 70%;
+    
+    font-weight: 200;
+}
+form p span{
+    color: orange;
+}
+form p span :hover{
+    color: orange;
+}
+
